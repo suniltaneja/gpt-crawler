@@ -1,10 +1,10 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "https://www.hrsa.gov",
-  match: "https://www.hrsa.gov/**",
+  url: "https://www.xxx.com",
+  match: "https://www.xxx.com/**",
   selector: ".region-content",
   maxPagesToCrawl: 50,
-  outputFileName: "hrsagov.json",
+  outputFileName: "xxx.json",
   maxTokens: 2000000,
 };
