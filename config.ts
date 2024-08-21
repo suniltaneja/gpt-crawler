@@ -1,9 +1,10 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "https://www.builder.io/c/docs/developers",
-  match: "https://www.builder.io/c/docs/**",
+  url: "https://www.hrsa.gov",
+  match: "https://www.hrsa.gov/**",
+  selector: ".region-content",
   maxPagesToCrawl: 50,
-  outputFileName: "output.json",
+  outputFileName: "hrsagov.json",
   maxTokens: 2000000,
 };
